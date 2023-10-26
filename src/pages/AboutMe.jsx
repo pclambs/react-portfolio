@@ -5,7 +5,7 @@ import paulImg from '../assets/paul.min.jpg'
 function AboutMe() {
     return (
         <>
-            <h2>About Me</h2>
+            <h2>about</h2>
             <img src={paulImg} alt="Paul Lambert" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, beatae!</p>
         </>

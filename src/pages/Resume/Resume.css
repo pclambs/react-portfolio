@@ -1,0 +1,15 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills > div {
+    flex: 0 0 calc(33.3333% - 1rem); 
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}

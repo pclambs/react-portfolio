@@ -6,11 +6,26 @@ body {
     background-color: #e7ecef; 
 }
 
-h1, h2 {
-    padding-left: 1rem;
+h1, h2, h3 {
     color: #252524;
 }
 
+h2 {
+    margin-bottom: 4rem;
+}
+
+h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    padding-left: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     h1 {
