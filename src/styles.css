@@ -1,0 +1,13 @@
+/* global.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #e7ecef;
+   
+}
+
+h1, h2 {
+    padding-left: 1rem;
+    color: #252524;
+}

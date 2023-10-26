@@ -1,9 +1,10 @@
 import React from "react"
+import "./Footer.css"
 
 function Footer() {
   return (
     <footer>
-      <p>© 2021 pclambs</p>
+        <p>&copy; pclambs {new Date().getFullYear()}</p>
     </footer>
   )
 }
