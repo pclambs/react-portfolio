@@ -12,20 +12,29 @@ button {
 	background-color: #252524;
 	color: #e7ecef;
 	padding: .5rem;
+	cursor: pointer;
 	transition: 0.3s ease;
+	font-weight: 600;
+	border: 2px solid #252524;
 }
 
 button:hover {
-	background-color: #252524bd;
+	background-color: #252524d7;
 }
 
-button.active {
-	color: #252524;
+button:active {
+	color: #080808;
+	background-color: white;
+}
+
+input {
+	font-family: inherit;
 }
 
 textarea {
 	resize: none;
 	height: 12rem;
+	font-family: inherit;
 }
 
 .input-field {
@@ -38,14 +47,14 @@ textarea {
 	left: 1rem;
 	top: .75rem;
 	transition: 0.075s ease;
-	color: #aaa;
+	color: #5858586c;
 }
 
 .input-field input,
 .input-field textarea {
 	width: 100%;
 	padding: .5rem .9rem .5rem;
-	border: 1px solid #ddd;
+	border: 2px solid #ddd;
 	outline: none;
 	transition: border-color 0.2s;
 }
@@ -54,8 +63,8 @@ textarea {
 .input-field.has-value label,
 .input-field input:focus + label,
 .input-field textarea:focus + label {
-	top: -15px;
-	font-size: 12px;
+	top: -1rem;
+	font-size: .75rem;
 	color: #555;
 }
 
@@ -63,6 +72,27 @@ textarea {
 .input-field input:focus,
 .input-field textarea:focus {
 	border-color: #555;
+}
+
+.error {
+	position: absolute;
+	top: .875rem;
+	right: 1rem;
+	color: #ce4760;
+	font-size: 0.75em;
+}
+
+/* Change the autofill color */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    color: #252524 !important;
 }
 
 /* Media query for larger screens */

@@ -1,21 +1,21 @@
 nav {
-    display: flex;
-    align-items: center;
-    padding-right: 1rem;
+	display: flex;
+	align-items: center;
+	padding-right: 1rem;
 }
 
 nav a {
-    color: #2525249c;
-    text-decoration: none;
-    padding: 1rem;
-    transition: color 0.3s ease;
-    font-size: 1.5rem;
+	color: #2525249c;
+	text-decoration: none;
+	padding: 1rem;
+	transition: color 0.3s ease;
+	font-size: 1.5rem;
 }
 
 nav a:hover {
-    color: #252524bd;
+	color: #252524bd;
 }
 
 nav a.active {
-    color: #252524;
+	color: #252524;
 }
