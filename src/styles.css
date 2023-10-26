@@ -3,11 +3,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 1rem;
     padding: 1rem;
-    background-color: #e7ecef;
-   
+    background-color: #e7ecef; 
 }
 
 h1, h2 {
     padding-left: 1rem;
     color: #252524;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    
+    h2 {
+        display: none;
+    }
+}
+
+/* Media query for larger screens */
+@media screen and (max-width: 992px) {
+    h1 {
+        padding-left: 0;
+    }
 }
