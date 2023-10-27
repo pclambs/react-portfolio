@@ -1,8 +1,8 @@
 import React from 'react'
-import paulImg from '../assets/paul.min.jpg'
+import paulImg from '../../assets/paul.min.jpg'
 
 
-function AboutMe() {
+function About() {
     return (
         <>
             <h2>about</h2>
@@ -12,4 +12,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe
+export default About

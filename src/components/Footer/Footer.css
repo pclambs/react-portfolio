@@ -4,3 +4,15 @@ footer {
     color: grey;
     padding: 1rem;
 }
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  /* Space between the icons */
+  }
+  
+  .footer-icon {
+    width: 2rem; /* or whatever size you want */
+    height: 4rem;
+  }
