@@ -40,20 +40,22 @@
   text-align: start;
   display: flex;
   justify-content: space-between;
-  /* height: 2rem; */
+  height: 3rem;
 }
 
+/* github link */
 .work-links {
   display: flex;
 }
 
+/* github link */
 .work-links img {
-  transform: translateY(.25rem);
+  transform: translateY(.3rem);
   border-radius: 0;
-  width: 20px;
-  height: 20px;
+  height: 20px !important;
 }
 
+/* entire card link */
 .work-block-link {
   display: inline-block;
   text-decoration: none;
@@ -67,3 +69,8 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .work-block img {
+    height: 17.5vw; /* Adjust this value according to your preference */
+  }
+}

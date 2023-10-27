@@ -51,18 +51,20 @@ function Work() {
 	]
 
 	return (
-		<div className="work-section">
-			<h2>work</h2>
-			<div className="work-grid">
-				{workCard.map((project, index) => (
-					<WorkBlock
-						key={index}
-						title={project.title}
-						image={project.imageUrl}
-						deployedUrl={project.deployedUrl}
-						githubUrl={project.githubUrl}
-					/>
-				))}
+		<div className="container">
+			<div className="work-section">
+				<h2>work</h2>
+				<div className="work-grid">
+					{workCard.map((project, index) => (
+						<WorkBlock
+							key={index}
+							title={project.title}
+							image={project.imageUrl}
+							deployedUrl={project.deployedUrl}
+							githubUrl={project.githubUrl}
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	)

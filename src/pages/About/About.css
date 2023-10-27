@@ -1,0 +1,49 @@
+.about-paul {
+  display: block;
+  width: 40rem;
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 1rem;
+}
+
+.about-card {
+  position: relative; 
+  bottom: 15rem; /* Adjust this value to control the overlap */
+  left: -5rem; /* Adjust this value to control horizontal placement */
+  background-color: #252524;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  max-width: fit-content; /* Makes the card only as wide as its content */
+}
+
+.about-card h4, .about-card h5 {
+  color: #e7ecef;
+}
+
+h4 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.about-card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #e7ecef;
+}
+
+@media screen and (max-width: 768px) {
+  .about-paul {
+    max-width: 100%; 
+  }
+
+  .about-card {
+    bottom: 0;
+    left: 0;
+  }
+}
