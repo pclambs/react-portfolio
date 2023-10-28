@@ -1,9 +1,6 @@
 .about-paul {
   flex: 0 0 55%;
   border-radius: 1rem;
-}
-
-.about-paul img {
   width: 100%;
   height: auto;
 }
