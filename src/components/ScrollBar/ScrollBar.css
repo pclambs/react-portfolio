@@ -1,0 +1,30 @@
+/* STYLING FOR VERTICAL SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+  transition: width 0.2s;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #252524;
+  border-radius: 8px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(194, 194, 194);
+}
+
+/* STYLING FOR HORIZONTAL SCROLLBAR */
+/* ::-webkit-scrollbar-horizontal {
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb-horizontal {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-horizontal {
+  background-color: lightgrey;
+  border-radius: 10px;
+} */
