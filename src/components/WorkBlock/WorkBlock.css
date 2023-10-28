@@ -1,18 +1,28 @@
+/* entire card link */
+.work-block-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .work-block {
   color: #e7ecef;
+  width: 100%;
   background-color: #252524;
   box-sizing: border-box;
   position: relative;
   border-radius: 1rem;
+  border: #acacacd3 solid 1px;
   transition: all 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   &:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.281);
+    border: #252524d0 solid 1px;
   }
 }
 
 .work-block-link,
-.work-links {
+.repo-link {
   cursor: pointer;
 }
 
@@ -48,33 +58,29 @@
 }
 
 /* github link */
-.work-links {
+.repo-link {
   display: flex;
 }
 
 /* github link */
-.work-links img {
+.repo-link img {
   transform: translateY(.3rem);
   border-radius: 0;
-  height: 20px !important;
+  height: 1.3rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
 }
 
-/* entire card link */
-.work-block-link {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-}
 
 @media screen and (max-width: 768px) {
   .work-block img {
-    width: 100%;
-    
+    width: 100%; 
   }
+  
 }
 
 @media screen and (min-width: 769px) {
   .work-block img {
-    height: 17.5vw; /* Adjust this value according to your preference */
+    height: 17.5vw;
   }
 }

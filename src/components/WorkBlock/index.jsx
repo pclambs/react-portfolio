@@ -21,7 +21,7 @@ function WorkBlock ({ title, image, deployedUrl, githubUrl }) {
 				<div className="work-info">
 					<h3>{title}</h3>
 					<div 
-						className="work-links"
+						className="repo-link"
 						onClick={(e) => {
 							e.stopPropagation(); // Prevents triggering the outer onClick
 							openLink(githubUrl);

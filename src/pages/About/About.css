@@ -3,7 +3,7 @@
   border-radius: 1rem;
 }
 .about-card {
-  flex: 0 0 37%;
+  flex: 0 0 40%;
 }
 
 .about-card {
@@ -44,6 +44,7 @@ h5 {
 
   .about-card {
     margin-left: -25%;
+    flex: 0 0 50%;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -56,12 +57,12 @@ h5 {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
   .about-paul {
     margin-left: -35%;
   }
   .about-card {
-    margin-left: -55%;
+    margin-left: -53%;
 
   }
 }

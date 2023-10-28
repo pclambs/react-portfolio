@@ -14,17 +14,16 @@ button {
 	padding: .5rem;
 	cursor: pointer;
 	transition: 0.3s ease;
-	font-weight: 600;
+	font-weight: 700;
 	border: 2px solid #252524;
-}
-
-button:hover {
-	background-color: #252524d7;
-}
-
-button:active {
-	color: #080808;
-	background-color: white;
+	&:hover {
+		background-color: #e7ecef;
+		color: #252524;
+	}
+	&:active {
+		background-color: white;
+		color: #252524;
+	}
 }
 
 input {
@@ -76,7 +75,7 @@ textarea {
 
 .error {
 	position: absolute;
-	top: .875rem;
+	top: .92rem;
 	right: 1rem;
 	color: #ce4760;
 	font-size: 0.75em;
@@ -100,6 +99,5 @@ textarea:-webkit-autofill:active {
 	.input-field, button {
 			max-width: 40rem;
 			margin: 0 auto;
-			
 	}
 }

@@ -18,7 +18,7 @@ function Resume() {
 		<>
 			<h2>resume</h2>
 			<ResumeDownloadLink />
-			<h3>proficiencies</h3>
+			<h3 className="proficiencies">proficiencies</h3>
 			<div className="skills">
 				<SkillsBlock logoSrc={html5Logo} alt="HTML5" />
 				<SkillsBlock logoSrc={css3Logo} alt="CSS3" />
