@@ -95,10 +95,9 @@ h5 {
 
 @media screen and (max-width: 460px) {
   .about-paul {
-    all: unset;
-    height: fit-content;
+  
+    height: 5rem;
     display: block;
-    width: 100%;
   }
 
   h4 {
