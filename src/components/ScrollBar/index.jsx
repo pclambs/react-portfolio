@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import './Scrollbar.css'
+import './ScrollBar.css'
 
 const Scrollbar = ({ children }) => {
   const containerRef = useRef(null)
