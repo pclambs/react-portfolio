@@ -73,7 +73,6 @@ h5 {
 @media screen and (max-width: 768px) {
   .about-paul {
     max-width: 100vw; 
-    min-width: 100%;
     margin-bottom: 1rem;
     margin-left: 0;
   }
@@ -95,10 +94,9 @@ h5 {
 
 @media screen and (max-width: 460px) {
   .about-paul {
+    all: unset !important;
     display: block !important;
     height: auto !important;
-
-
     width: 100% !important;
   }
 
