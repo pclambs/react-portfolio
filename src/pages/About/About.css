@@ -95,11 +95,12 @@ h5 {
 
 @media screen and (max-width: 460px) {
   .about-paul {
+    display: block !important;
 
     max-width: 100% !important;
 
-    display: block;
-    width: 100%;
+
+    width: 100% !important;
   }
 
   h4 {
