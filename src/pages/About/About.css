@@ -96,10 +96,11 @@ h5 {
 }
 
 @media screen and (max-width: 460px) {
-  .about-paul img {
+  .about-paul {
     width: 100%;
     height: none;
     object-fit: cover;
+    max-height: none;
   }
 
   h4 {
