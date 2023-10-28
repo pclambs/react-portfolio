@@ -14,9 +14,9 @@
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
-  margin-left: -10%; /* Causes the card to overlap the image by 10% */
-  position: relative; /* Ensures the card is positioned above the image */
-  z-index: 1; /* Raises the card above the image */
+  margin-left: -10%;
+  position: relative;
+  z-index: 1; 
 
 }
 
@@ -96,6 +96,7 @@ h5 {
 @media screen and (max-width: 460px) {
   .about-paul {
     all: unset;
+    height: fit-content;
     display: block;
     width: 100%;
   }
