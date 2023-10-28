@@ -1,20 +1,20 @@
 .about-paul {
-  display: block;
-  width: 40rem;
-  max-width: 100%; 
-  height: auto; 
+  flex: 0 0 55%;
   border-radius: 1rem;
+}
+.about-card {
+  flex: 0 0 37%;
 }
 
 .about-card {
-  position: relative; 
-  bottom: 15rem; /* Adjust this value to control the overlap */
-  left: -5rem; /* Adjust this value to control horizontal placement */
   background-color: #252524;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
-  max-width: fit-content; /* Makes the card only as wide as its content */
+  margin-left: -10%; /* Causes the card to overlap the image by 10% */
+  position: relative; /* Ensures the card is positioned above the image */
+  z-index: 1; /* Raises the card above the image */
+
 }
 
 .about-card h4, .about-card h5 {
@@ -37,13 +37,67 @@ h5 {
   color: #e7ecef;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1295px) {
   .about-paul {
-    max-width: 100%; 
+    margin-left: -20%;
   }
 
   .about-card {
-    bottom: 0;
-    left: 0;
+    margin-left: -25%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-paul {
+    margin-left: -35%;
+  }
+  .about-card {
+    margin-left: -35%;
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-paul {
+    margin-left: -35%;
+  }
+  .about-card {
+    margin-left: -55%;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-paul {
+    max-width: 100%; 
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  .about-card {
+    width: 100%;
+    min-width: 100%;
+    margin-left: 0;
+  }
+
+  h4 {
+    font-size: 5rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  h4 {
+    font-size: 4rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  .about-card p {
+    font-size: 1rem;
   }
 }
