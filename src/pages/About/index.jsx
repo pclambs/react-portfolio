@@ -8,7 +8,9 @@ function About() {
 		<>
 			<h2>about</h2>
 			<div className="container">
-				<img src={paulImg} alt="Paul Lambert" className="about-paul" />
+				<div>
+					<img src={paulImg} alt="Paul Lambert" className="about-paul" />
+				</div>
 				<div className="about-card">
 					<h5>Full-Stack Web Developer</h5>
 					<h4>Paul Lambert</h4>
