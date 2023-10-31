@@ -72,12 +72,14 @@ h5 {
 
 @media screen and (max-width: 768px) {
   .about-paul {
-    display: flex;
+
     max-width: 100vw; 
     margin-bottom: 1rem;
     margin-left: 0;
-    align-items: center;
-    height: intrinsic;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
   }
 
   .about-card {
