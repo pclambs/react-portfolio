@@ -65,10 +65,7 @@ h3 {
 		position: relative; 
 		width: 100%; 
 		margin: 0 0;
-		display: flex;
-		justify-content: center; 
-		flex-direction: column;
-
+		display: block;
 	}
 }
 
