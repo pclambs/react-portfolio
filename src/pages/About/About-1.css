@@ -1,4 +1,4 @@
-.about-paul {
+/* .about-paul {
   flex: 0 0 55%;
   border-radius: 1rem;
   width: 100%;
@@ -99,9 +99,10 @@ h5 {
   .about-paul {
     all: unset !important;
     display: block !important;
-    height: inherit !important;
-    /* height: auto !important;
-    width: 100% !important; */
+
+   
+    height: auto !important;
+    width: 100% !important;
   }
 
   h4 {
@@ -115,4 +116,4 @@ h5 {
   .about-card p {
     font-size: 1rem;
   }
-}
+} */
