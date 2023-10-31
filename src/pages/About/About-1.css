@@ -99,6 +99,7 @@ h5 {
   .about-paul {
     all: unset !important;
     display: block !important;
+    height: inherit !important;
     /* height: auto !important;
     width: 100% !important; */
   }
