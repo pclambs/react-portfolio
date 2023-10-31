@@ -1,6 +1,6 @@
 import React from 'react'
 import paulImg from '../../assets/paul.min.jpg'
-import './About.css'
+import './About-1.css'
 
 
 function About() {
