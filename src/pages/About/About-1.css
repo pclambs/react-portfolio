@@ -97,7 +97,7 @@ h5 {
 
 @media screen and (max-width: 460px) {
   .about-paul {
-    all: unset;
+    all: unset !important;
     display: block !important;
     /* height: auto !important;
     width: 100% !important; */
