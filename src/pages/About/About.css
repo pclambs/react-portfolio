@@ -99,16 +99,13 @@ h5 {
   .about-paul img {
     all: unset !important;
     display: block !important;
-  }
-
-  .img-div {
-
-    width: 100% !important;
-    float: left !important;
     margin-bottom: 1rem !important;
+    border-radius: 1rem !important;
     height: auto !important;
-    display: block !important;
+    width: 100% !important;
   }
+
+  
 
   h4 {
     font-size: 4rem;
