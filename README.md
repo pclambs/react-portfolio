@@ -4,9 +4,11 @@
 
   - Deployed Link: 
 
-    https://main--storied-manatee-79c2d7.netlify.app/
+    https://main--pclambs.netlify.app/
 
-  <!-- - Screenshot:  -->
+  - Screenshot: 
+
+    ![about-page](src/assets/Screenshot.jpg)
   
 ## Features
 
