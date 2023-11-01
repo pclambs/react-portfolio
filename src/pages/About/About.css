@@ -99,17 +99,15 @@ h5 {
   .about-paul img {
     all: unset !important;
     display: block !important;
-    /* margin-bottom: 1rem !important;
-    border-radius: 1rem !important;
-    height: auto !important;
-    width: 100% !important; */
   }
 
   .img-div {
+
     width: 100% !important;
-    float: left;
+    float: left !important;
     margin-bottom: 1rem !important;
-    height: auto;
+    height: auto !important;
+    display: block !important;
   }
 
   h4 {
