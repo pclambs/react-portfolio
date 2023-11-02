@@ -4,7 +4,7 @@
 
   - Deployed Link: 
 
-    https://main--pclambs.netlify.app/
+    https://pclambs.com/
 
   - Screenshot: 
 
