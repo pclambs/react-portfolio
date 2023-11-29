@@ -5,12 +5,18 @@ import "./Work.css"
 import aquapocalypseImage from '../../assets/work-images/aquapocalypse-gameplay.jpg'
 import newsWorldImage from '../../assets/work-images/news-world.jpg'
 import pocketSynthImage from '../../assets/work-images/pocket-synth.jpg'
-import pongImage from '../../assets/work-images/pong.jpg'
+import streamBackerImage from '../../assets/work-images/stream-backer.jpg'
 import weatherImage from '../../assets/work-images/weather.jpg'
 import noteTakerImage from '../../assets/work-images/note-taker.jpg'
 
 function Work() {
 	const workCard = [
+		{ 
+			title: "stream backer",
+			imageUrl: streamBackerImage,
+			deployedUrl: "https://stream-backer-668b75ae5120.herokuapp.com/",	
+			githubUrl: "https://github.com/pclambs/stream-backer",
+		},
 		{ 
 			title: "aquapocalypse",
 			imageUrl: aquapocalypseImage,
@@ -28,12 +34,6 @@ function Work() {
 			imageUrl: pocketSynthImage,
 			deployedUrl: "https://pclambs.github.io/pocket-synth-pwa/",	
 			githubUrl: "https://github.com/pclambs/pocket-synth-pwa",
-		},
-		{ 
-			title: "pong",
-			imageUrl: pongImage,
-			deployedUrl: "https://pclambs.github.io/pong-tut/",	
-			githubUrl: "https://github.com/pclambs/pong-tut",
 		},
 		{ 
 			title: "weather app",
