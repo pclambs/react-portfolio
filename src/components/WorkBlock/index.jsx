@@ -23,8 +23,8 @@ function WorkBlock ({ title, image, deployedUrl, githubUrl }) {
 					<div 
 						className="repo-link"
 						onClick={(e) => {
-							e.stopPropagation(); // Prevents triggering the outer onClick
-							openLink(githubUrl);
+							e.stopPropagation() // Prevents triggering the outer onClick
+							openLink(githubUrl)
 						}}
 						role="button"
 						tabIndex="0"

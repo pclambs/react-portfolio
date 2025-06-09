@@ -39,7 +39,7 @@
 @media screen and (max-width: 480px) {
     .resume-link a {
         font-size: 1rem;
-        width: 100%;
+        /* width: 100%; */
     }
     
 }
